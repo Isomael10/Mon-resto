@@ -1,0 +1,110 @@
+body{
+    font-size: "ariat", sans-serif;
+}
+.navbar{
+   background-color: #333;
+}
+
+.hero {
+    background-image: url(https://img.freepik.com/photos-gratuite/portrait-photorealiste-femme-rastafari-dreads-africains_23-2151516546.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+       
+
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            width: 380px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card img {
+            display: block;
+            margin: auto;
+            width: 150px;
+            height: 100px;
+            margin-bottom: 10px;
+            border-radius: 8px ;
+           
+        }
+
+        .card h2 {
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .card h3 {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .card .price {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            color: #666;
+        }
+
+        .card button {
+            background-color: #f39c12;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .card button:hover {
+            background-color: #e67e22;
+        }
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .photo {
+            width: 580px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+        }
+        .photo img {
+            display: block;
+            margin: auto;
+            width: 580px;
+            height: 350px;
+            margin-bottom: 10px;
+            border-radius: 8px ;
+        }
+form{
+    padding: 80px;
+}
